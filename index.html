@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <section class="chatbox" id="chatbox">
+        <div class="profile">
+          <img
+            class="chevron-left"
+            src="images/chevron_left_FILL0_wght400_GRAD0_opsz24.png"
+            alt=""
+          />
+          <div class="bio">
+            <div class="display-picture">
+              <img class="picture" src="images/profile picture.png" alt="" />
+              <img class="green-dot" src="images/greeeene dot.png" alt="" />
+            </div>
+            <div class="profile-text">
+              <h1>Iyanuoluwa</h1>
+              <p>Active 1h ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="chat-area">
+          <div class="default">
+            <img class="thunder" src="images/thunder.png" alt="" />
+
+            <div class="default">
+              <img
+                class="waving-hand"
+                src="images/hand-wave-removebg-preview.png"
+                alt=""
+              />
+
+              <p>Hi there! How can I help you</p>
+            </div>
+          </div>
+
+          <div class="User">
+            <p class="user-text">I'm sorry bot, but you're wrong</p>
+
+            <p class="user-text">Can I talk to someone please?</p>
+          </div>
+          <div class="bot">
+            <div>
+              <img class="thunder" src="images/thunder.png" alt="" />
+              <p class="bot-text">
+                No problem! Let me connect you to
+                <br />
+                a customer support agent
+              </p>
+            </div>
+
+            <div>
+              <img class="picture" src="images/profile picture.png" alt="" />
+              <p class="bot-text">
+                Hi there! I'm Hannah.
+                <br />
+                How can I help you?
+              </p>
+            </div>
+          </div>
+          <div>
+            <p class="user-text">Oh finally a human, wohoo</p>
+          </div>
+        </div>
+
+        <div class="reply">
+          <input class="text-area" type="text" placeholder="Type a reply..." />
+        </div>
+      </section>
+
+      <div onclick="displayContent()" id="trigger" class="trigger">
+        <img
+          id="arrow-up"
+          class="arrow-up"
+          src="./images/arrow up.png"
+          alt=""
+        />
+        <img
+          id="arrow-down"
+          class="arrow-down"
+          src="./images/Trigger.png"
+          alt=""
+        />
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  height: 120vh;
+  position: relative;
+
+  width: 100%;
+}
+
+.chatbox {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-radius: 10px;
+  position: absolute;
+  right: 20px;
+  bottom: 120px;
+  width: 350px;
+  background-color: white;
+  display: none;
+}
+
+.first-section {
+}
+
+.trigger {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.arrow-up {
+  height: 125px;
+}
+.arrow-down {
+  display: none;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  background-color: #3047ec;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.chevron-left {
+  height: 20px;
+  width: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.bio {
+  display: flex;
+  gap: 20px;
+}
+
+.profile-text {
+  margin: 10px;
+  color: white;
+}
+
+.picture {
+  height: 20px;
+  width: 20px;
+}
+
+/* .green-dot {
+  position: absolute;
+  bottom: 15px;
+  left: 600px;
+} */
+
+.waving-hand {
+  height: 30px;
+  width: 30px;
+}
+
+.chat-area {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 40px;
+  padding: 30px;
+}
+
+.thunder {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+
+.default {
+  display: flex;
+}
+
+.user {
+}
+
+.chat-area .user-text {
+  background-color: #3047ec;
+}
+
+.text-area {
+}
+
+.bot div {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.chat-area .bot .bot-text {
+  background-color: #f2f2f2;
+}
+
+.reply {
+  margin-left: 30px;
+}
